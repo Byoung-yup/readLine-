@@ -6,7 +6,7 @@
 //
 
 import Foundation
-/*
+
 // 입력 값이 1개 일때
 if let value = Int(readLine()!) {
     print("input: \(value)")
@@ -27,7 +27,7 @@ print(type(of: value))
 let value = Array(readLine()!)
 print("input: \(value)")
 print(type(of: value))
- */
+ 
 // 연속적으로 입력받을 때, 정수형 타입 캐스팅
 let value = Array(readLine()!)
 let value2 = value.map{ Int(String($0))! }
